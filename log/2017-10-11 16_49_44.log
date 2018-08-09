@@ -1,0 +1,26 @@
+[2017-10-11 16:50:32] [INFO] ./upgrade/upload.exe E:\wifitest\upgrade\eeee.png
+[2017-10-11 16:50:32] [INFO] 开始用autoit3脚本控制选择本地文件
+[2017-10-11 16:50:44] [ERROR] Traceback (most recent call last):
+  File "E:\wifitest\testcase\test_firmware_upgrade.py", line 52, in test_FirmwareUpgrade
+    self.setuppage.click_begin_upload()
+  File "E:\wifitest\webpage\SetupPage.py", line 141, in click_begin_upload
+    self.click(beginupload)
+  File "E:\wifitest\webpage\BasePage.py", line 134, in click
+    element.click()
+  File "C:\python\lib\site-packages\selenium\webdriver\remote\webelement.py", line 72, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\python\lib\site-packages\selenium\webdriver\remote\webelement.py", line 461, in _execute
+    return self._parent.execute(command, params)
+  File "C:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "C:\python\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: Element is not clickable at point (478, 562)
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 6.1.7601 SP1 x86_64)
+
+
+[2017-10-11 16:50:44] [INFO] [(40, '上传错误的升级文件时，错误提示 ', 'error', '2017-10-11 16:49:58', '2017-10-11 16:50:44', '0:00:46', 'Message: unknown error: Element is not clickable at point (478, 562)\n  (Session info: chrome=61.0.3163.100)\n  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 6.1.7601 SP1 x86_64)\n')]
+[2017-10-11 16:50:48] [INFO] <xlrd.book.Book object at 0x0000000003B82D68>
+[2017-10-11 16:50:48] [INFO] <xlwt.Workbook.Workbook object at 0x0000000003CDB358>
+[2017-10-11 16:50:48] [INFO] 发送邮件

@@ -1,0 +1,32 @@
+[2017-10-11 16:30:16] [INFO] [(5, '不填写密码时的提示信息是否正确 ', 'Pass', '2017-10-11 16:30:07', '2017-10-11 16:30:16', '0:00:09', '')]
+[2017-10-11 16:30:19] [INFO] <xlrd.book.Book object at 0x0000000003B87550>
+[2017-10-11 16:30:19] [INFO] <xlwt.Workbook.Workbook object at 0x0000000003C104E0>
+[2017-10-11 16:30:51] [INFO] [(22, 'DHCP 能否被正确关闭 ', 'Pass', '2017-10-11 16:30:24', '2017-10-11 16:30:51', '0:00:27', '')]
+[2017-10-11 16:30:54] [INFO] <xlrd.book.Book object at 0x0000000003B692E8>
+[2017-10-11 16:30:54] [INFO] <xlwt.Workbook.Workbook object at 0x0000000003BF9160>
+[2017-10-11 16:35:52] [INFO] [(25, 'wifi名称各种组合是否支持 ', 'Pass', '2017-10-11 16:30:59', '2017-10-11 16:35:52', '0:04:53', '')]
+[2017-10-11 16:35:55] [INFO] <xlrd.book.Book object at 0x0000000003B4CFD0>
+[2017-10-11 16:35:55] [INFO] <xlwt.Workbook.Workbook object at 0x0000000003D81A58>
+[2017-10-11 16:36:33] [INFO] ./upgrade/upload.exe E:\wifitest\upgrade\eeee.png
+[2017-10-11 16:36:33] [INFO] 开始用autoit3脚本控制选择本地文件
+[2017-10-11 16:36:47] [ERROR] Traceback (most recent call last):
+  File "E:\wifitest\testcase\test_firmware_upgrade.py", line 51, in test_Reboot
+    self.setuppage.scroll_window()
+  File "E:\wifitest\webpage\SetupPage.py", line 93, in scroll_window
+    self.runJs(js)
+  File "E:\wifitest\webpage\BasePage.py", line 205, in runJs
+    self.driver.execute_script(js)
+  File "C:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 465, in execute_script
+    'args': converted_args})['value']
+  File "C:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "C:\python\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 191, in check_response
+    raise exception_class(message, screen, stacktrace, value['alert'].get('text'))
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: 
+Message: Modal dialog present
+
+
+[2017-10-11 16:36:47] [INFO] [(40, '上次错误的分位时，错误提示 ', 'error', '2017-10-11 16:36:00', '2017-10-11 16:36:47', '0:00:47', 'Alert Text: \nMessage: Modal dialog present\n')]
+[2017-10-11 16:37:29] [INFO] <xlrd.book.Book object at 0x0000000003B82D68>
+[2017-10-11 16:37:29] [INFO] <xlwt.Workbook.Workbook object at 0x0000000003C3C860>
+[2017-10-11 16:37:29] [INFO] 发送邮件

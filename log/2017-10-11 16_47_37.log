@@ -1,0 +1,32 @@
+[2017-10-11 16:48:13] [INFO] ./upgrade/upload.exe E:\wifitest\upgrade\eeee.png
+[2017-10-11 16:48:13] [INFO] 开始用autoit3脚本控制选择本地文件
+[2017-10-11 16:48:27] [ERROR] Traceback (most recent call last):
+  File "E:\wifitest\webpage\BasePage.py", line 48, in findElement
+    elem = self.driver.find_element_by_id(value)
+  File "C:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 269, in find_element_by_id
+    return self.find_element(by=By.ID, value=id_)
+  File "C:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "C:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "C:\python\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 191, in check_response
+    raise exception_class(message, screen, stacktrace, value['alert'].get('text'))
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: 
+Message: Modal dialog present
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\wifitest\testcase\test_firmware_upgrade.py", line 52, in test_FirmwareUpgrade
+    self.setuppage.click_begin_upload()
+  File "E:\wifitest\webpage\SetupPage.py", line 140, in click_begin_upload
+    beginupload=self.findElement(self.beginuploadbutton)
+  File "E:\wifitest\webpage\BasePage.py", line 67, in findElement
+    raise ValueError("No such element found" + str(element))
+ValueError: No such element found('id', 'btn_begin_upload')
+
+[2017-10-11 16:48:27] [INFO] [(40, '上传错误的升级文件时，错误提示 ', 'error', '2017-10-11 16:47:41', '2017-10-11 16:48:27', '0:00:46', "No such element found('id', 'btn_begin_upload')")]
+[2017-10-11 16:49:06] [INFO] <xlrd.book.Book object at 0x0000000003B82D68>
+[2017-10-11 16:49:06] [INFO] <xlwt.Workbook.Workbook object at 0x0000000003CC35F8>
+[2017-10-11 16:49:06] [INFO] 发送邮件

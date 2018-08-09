@@ -1,0 +1,23 @@
+[2017-10-11 16:43:44] [INFO] ./upgrade/upload.exe E:\wifitest\upgrade\eeee.png
+[2017-10-11 16:43:44] [INFO] 开始用autoit3脚本控制选择本地文件
+[2017-10-11 16:43:57] [ERROR] Traceback (most recent call last):
+  File "E:\wifitest\testcase\test_firmware_upgrade.py", line 51, in test_FirmwareUpgrade
+    self.setuppage.scroll_window()
+  File "E:\wifitest\webpage\SetupPage.py", line 93, in scroll_window
+    self.runJs(js)
+  File "E:\wifitest\webpage\BasePage.py", line 205, in runJs
+    self.driver.execute_script(js)
+  File "C:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 465, in execute_script
+    'args': converted_args})['value']
+  File "C:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "C:\python\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 191, in check_response
+    raise exception_class(message, screen, stacktrace, value['alert'].get('text'))
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: 
+Message: Modal dialog present
+
+
+[2017-10-11 16:43:57] [INFO] [(40, '上传错误的升级文件时，错误提示 ', 'error', '2017-10-11 16:43:12', '2017-10-11 16:43:57', '0:00:45', 'Alert Text: \nMessage: Modal dialog present\n')]
+[2017-10-11 16:44:36] [INFO] <xlrd.book.Book object at 0x0000000003B82D68>
+[2017-10-11 16:44:36] [INFO] <xlwt.Workbook.Workbook object at 0x0000000003D73668>
+[2017-10-11 16:44:37] [INFO] 发送邮件

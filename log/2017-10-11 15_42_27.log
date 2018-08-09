@@ -1,0 +1,545 @@
+[2017-10-11 15:42:33] [INFO] test_goto_login: test START 
+[2017-10-11 15:42:36] [INFO] [(1, '登录页面跳转测试 ', 'Pass', '2017-10-11 15:42:33', '2017-10-11 15:42:36', '0:00:03', '')]
+[2017-10-11 15:42:39] [INFO] <xlrd.book.Book object at 0x0000000003BAD550>
+[2017-10-11 15:42:39] [INFO] <xlwt.Workbook.Workbook object at 0x0000000003C03F28>
+[2017-10-11 15:42:57] [INFO] [(2, '正确密码是否可成功登录测试 ', 'Pass', '2017-10-11 15:42:43', '2017-10-11 15:42:57', '0:00:14', '')]
+[2017-10-11 15:43:00] [INFO] <xlrd.book.Book object at 0x0000000003B87550>
+[2017-10-11 15:43:00] [INFO] <xlwt.Workbook.Workbook object at 0x0000000003C0C3C8>
+[2017-10-11 15:43:21] [INFO] [(3, '是否能顺利跳转到wan 界面 ', 'Pass', '2017-10-11 15:43:05', '2017-10-11 15:43:21', '0:00:16', '')]
+[2017-10-11 15:43:24] [INFO] <xlrd.book.Book object at 0x0000000003B68160>
+[2017-10-11 15:43:24] [INFO] <xlwt.Workbook.Workbook object at 0x0000000003C940B8>
+[2017-10-11 15:43:59] [INFO] 请输入IP地址。
+[2017-10-11 15:43:59] [INFO] [(4, '没有IP地址输入时的错误信息提示 ', 'Pass', '2017-10-11 15:43:29', '2017-10-11 15:43:59', '0:00:30', '')]
+[2017-10-11 15:44:02] [INFO] <xlrd.book.Book object at 0x0000000003B6A128>
+[2017-10-11 15:44:02] [INFO] <xlwt.Workbook.Workbook object at 0x0000000003C18438>
+[2017-10-11 15:44:13] [INFO] [(5, '不填写密码时的提示信息是否正确 ', 'error', '2017-10-11 15:44:07', '2017-10-11 15:44:13', '0:00:06', '')]
+[2017-10-11 15:44:16] [INFO] <xlrd.book.Book object at 0x0000000003BAE7B8>
+[2017-10-11 15:44:16] [INFO] <xlwt.Workbook.Workbook object at 0x0000000003C0A278>
+[2017-10-11 15:44:28] [INFO] [(6, '登录密码错误时提示信息是否正确 ', 'Pass', '2017-10-11 15:44:21', '2017-10-11 15:44:28', '0:00:07', '')]
+[2017-10-11 15:44:31] [INFO] <xlrd.book.Book object at 0x0000000003B87550>
+[2017-10-11 15:44:31] [INFO] <xlwt.Workbook.Workbook object at 0x0000000003C0F898>
+[2017-10-11 15:45:06] [INFO] 请输入子网掩码。
+[2017-10-11 15:45:06] [INFO] [(7, '不输入子网掩码时的错误信息提示 ', 'Pass', '2017-10-11 15:44:36', '2017-10-11 15:45:06', '0:00:30', '')]
+[2017-10-11 15:45:09] [INFO] <xlrd.book.Book object at 0x0000000003C6CDD8>
+[2017-10-11 15:45:10] [INFO] <xlwt.Workbook.Workbook object at 0x0000000003C9D358>
+[2017-10-11 15:45:45] [INFO] 请输入默认网关地址。
+[2017-10-11 15:45:45] [INFO] [(8, '不输入默认网关时的错误信息提示 ', 'Pass', '2017-10-11 15:45:14', '2017-10-11 15:45:45', '0:00:31', '')]
+[2017-10-11 15:45:48] [INFO] <xlrd.book.Book object at 0x0000000003B6C080>
+[2017-10-11 15:45:48] [INFO] <xlwt.Workbook.Workbook object at 0x0000000003C9FBE0>
+[2017-10-11 15:46:21] [INFO] IP地址含非法字符，请重新输入。
+[2017-10-11 15:46:25] [INFO] IP地址含非法字符，请重新输入。
+[2017-10-11 15:46:29] [INFO] IP地址含非法字符，请重新输入。
+[2017-10-11 15:46:33] [INFO] IP地址含非法字符，请重新输入。
+[2017-10-11 15:46:37] [INFO] IP地址格式错误，请重新输入。
+[2017-10-11 15:46:41] [INFO] IP地址含非法字符，请重新输入。
+[2017-10-11 15:46:41] [INFO] [(9, '非法格式的IP地址输入时提示信息检查 ', 'Pass', '2017-10-11 15:45:53', '2017-10-11 15:46:41', '0:00:48', '')]
+[2017-10-11 15:46:44] [INFO] <xlrd.book.Book object at 0x0000000003B6B128>
+[2017-10-11 15:46:44] [INFO] <xlwt.Workbook.Workbook object at 0x0000000003D56198>
+[2017-10-11 15:47:19] [INFO] 子网掩码不正确，请重新输入。
+[2017-10-11 15:47:25] [INFO] 子网掩码不正确，请重新输入。
+[2017-10-11 15:47:31] [INFO] 子网掩码不正确，请重新输入。
+[2017-10-11 15:47:37] [INFO] 子网掩码不正确，请重新输入。
+[2017-10-11 15:47:43] [INFO] 子网掩码不正确，请重新输入。
+[2017-10-11 15:47:49] [INFO] 子网掩码不正确，请重新输入。
+[2017-10-11 15:47:49] [INFO] [(10, '非法格式的子网掩码输入时，提示信息检查 ', 'Pass', '2017-10-11 15:46:49', '2017-10-11 15:47:49', '0:01:00', '')]
+[2017-10-11 15:47:52] [INFO] <xlrd.book.Book object at 0x0000000003B6A0F0>
+[2017-10-11 15:47:52] [INFO] <xlwt.Workbook.Workbook object at 0x0000000003C28D30>
+[2017-10-11 15:48:28] [INFO] 默认网关错误，请重新输入。
+[2017-10-11 15:48:34] [INFO] 默认网关错误，请重新输入。
+[2017-10-11 15:48:40] [INFO] 默认网关错误，请重新输入。
+[2017-10-11 15:48:46] [INFO] 默认网关错误，请重新输入。
+[2017-10-11 15:48:52] [INFO] 默认网关错误，请重新输入。
+[2017-10-11 15:48:58] [INFO] 默认网关错误，请重新输入。
+[2017-10-11 15:48:58] [INFO] [(11, '非法格式的默认网关输入时，提示信息检查 ', 'Pass', '2017-10-11 15:47:57', '2017-10-11 15:48:58', '0:01:01', '')]
+[2017-10-11 15:49:01] [INFO] <xlrd.book.Book object at 0x0000000003BFA470>
+[2017-10-11 15:49:01] [INFO] <xlwt.Workbook.Workbook object at 0x0000000003C07BA8>
+[2017-10-11 15:49:49] [INFO] [(12, '是否可以成功设置静态IP ', 'Pass', '2017-10-11 15:49:06', '2017-10-11 15:49:49', '0:00:43', '')]
+[2017-10-11 15:49:49] [INFO] 测试完成后将上网方式恢复为自动获取
+[2017-10-11 15:50:13] [INFO] <xlrd.book.Book object at 0x0000000003C15668>
+[2017-10-11 15:50:13] [INFO] <xlwt.Workbook.Workbook object at 0x0000000003C244A8>
+[2017-10-11 15:50:38] [INFO] [(13, '是否能顺利跳转到lan页面 ', 'Pass', '2017-10-11 15:50:17', '2017-10-11 15:50:38', '0:00:21', '')]
+[2017-10-11 15:50:41] [INFO] <xlrd.book.Book object at 0x0000000003B69438>
+[2017-10-11 15:50:41] [INFO] <xlwt.Workbook.Workbook object at 0x0000000003C11C88>
+[2017-10-11 15:51:00] [INFO] 默认的局域网地址:
+[2017-10-11 15:51:01] [INFO] 默认的dhcp状态是：checkbox_on
+[2017-10-11 15:51:01] [INFO] 默认的初始IP地址池：100
+[2017-10-11 15:51:01] [INFO] 默认的结束IP地址池： 150
+[2017-10-11 15:51:01] [INFO] [(14, 'lan页面默认项检查 ', 'Pass', '2017-10-11 15:50:45', '2017-10-11 15:51:01', '0:00:16', '')]
+[2017-10-11 15:51:04] [INFO] <xlrd.book.Book object at 0x0000000003B69358>
+[2017-10-11 15:51:04] [INFO] <xlwt.Workbook.Workbook object at 0x0000000003CC4A20>
+[2017-10-11 15:51:34] [INFO] [(15, 'lan页面不输入局域网地址时的提示语检查 ', 'Pass', '2017-10-11 15:51:08', '2017-10-11 15:51:34', '0:00:26', '')]
+[2017-10-11 15:51:37] [INFO] <xlrd.book.Book object at 0x0000000003B69390>
+[2017-10-11 15:51:37] [INFO] <xlwt.Workbook.Workbook object at 0x0000000003C13588>
+[2017-10-11 15:52:05] [INFO] IP地址含非法字符，请重新输入。
+[2017-10-11 15:52:08] [INFO] IP地址含非法字符，请重新输入。
+[2017-10-11 15:52:11] [INFO] IP地址含非法字符，请重新输入。
+[2017-10-11 15:52:14] [INFO] IP地址含非法字符，请重新输入。
+[2017-10-11 15:52:17] [INFO] IP地址格式错误，请重新输入。
+[2017-10-11 15:52:20] [INFO] IP地址含非法字符，请重新输入。
+[2017-10-11 15:52:20] [INFO] [(16, 'lan页面输入格式错误的局域网地址时的提示语检查 ', 'Pass', '2017-10-11 15:51:42', '2017-10-11 15:52:20', '0:00:38', '')]
+[2017-10-11 15:52:23] [INFO] <xlrd.book.Book object at 0x0000000003B69390>
+[2017-10-11 15:52:23] [INFO] <xlwt.Workbook.Workbook object at 0x0000000003CB5A20>
+[2017-10-11 15:53:57] [INFO] [(17, 'lan页面修改局域网地址是否可以成功 ', 'Pass', '2017-10-11 15:52:28', '2017-10-11 15:53:57', '0:01:29', '')]
+[2017-10-11 15:53:57] [INFO] 测试完成后修改到原来的IP
+[2017-10-11 15:55:15] [INFO] <xlrd.book.Book object at 0x0000000003CC8AC8>
+[2017-10-11 15:55:15] [INFO] <xlwt.Workbook.Workbook object at 0x0000000003C974E0>
+[2017-10-11 15:55:51] [INFO] 地址池开始值错误，请重新输入。
+[2017-10-11 15:55:51] [INFO] [(18, '开始IP地址非法时提示信息检查 ', 'Pass', '2017-10-11 15:55:20', '2017-10-11 15:55:51', '0:00:31', '')]
+[2017-10-11 15:55:54] [INFO] <xlrd.book.Book object at 0x0000000003B693C8>
+[2017-10-11 15:55:54] [INFO] <xlwt.Workbook.Workbook object at 0x0000000003C19CF8>
+[2017-10-11 15:56:28] [INFO] 地址池结束值错误，请重新输入。
+[2017-10-11 15:56:28] [INFO] [(19, '结束IP地址非法时提示信息检查 ', 'Pass', '2017-10-11 15:55:59', '2017-10-11 15:56:28', '0:00:29', '')]
+[2017-10-11 15:56:31] [INFO] <xlrd.book.Book object at 0x0000000003B69390>
+[2017-10-11 15:56:31] [INFO] <xlwt.Workbook.Workbook object at 0x0000000003C19CF8>
+[2017-10-11 15:57:08] [INFO] 地址池结束值不能小于开始值，请重新输入。
+[2017-10-11 15:57:08] [INFO] [(20, '开始IP地址大于结束IP地址时，提示语检查 ', 'Pass', '2017-10-11 15:56:36', '2017-10-11 15:57:08', '0:00:32', '')]
+[2017-10-11 15:57:11] [INFO] <xlrd.book.Book object at 0x0000000003B693C8>
+[2017-10-11 15:57:11] [INFO] <xlwt.Workbook.Workbook object at 0x0000000003D49DA0>
+[2017-10-11 15:57:52] [INFO] [(21, '开始ip地址和结束IP地址都合法时，是否可以成功保存 ', 'Pass', '2017-10-11 15:57:15', '2017-10-11 15:57:52', '0:00:37', '')]
+[2017-10-11 15:57:55] [INFO] <xlrd.book.Book object at 0x0000000003B693C8>
+[2017-10-11 15:57:55] [INFO] <xlwt.Workbook.Workbook object at 0x0000000003BCA400>
+[2017-10-11 15:58:14] [ERROR] Traceback (most recent call last):
+  File "E:\wifitest\webpage\BasePage.py", line 48, in findElement
+    elem = self.driver.find_element_by_id(value)
+  File "C:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 269, in find_element_by_id
+    return self.find_element(by=By.ID, value=id_)
+  File "C:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "C:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "C:\python\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to find element with id == lang_dhcpsever
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\wifitest\testcase\test_dhcp_close.py", line 35, in test_dhcp_close
+    self.lanpage.goto_lan()
+  File "E:\wifitest\webpage\LanPage.py", line 42, in goto_lan
+    lanset=self.findElement(self.lanset)
+  File "E:\wifitest\webpage\BasePage.py", line 67, in findElement
+    raise ValueError("No such element found" + str(element))
+ValueError: No such element found('id', 'lang_dhcpsever')
+
+[2017-10-11 15:58:14] [INFO] [(22, 'DHCP 能否被正确关闭 ', 'error', '2017-10-11 15:58:00', '2017-10-11 15:58:14', '0:00:14', "No such element found('id', 'lang_dhcpsever')")]
+[2017-10-11 15:58:17] [INFO] <xlrd.book.Book object at 0x0000000003B69390>
+[2017-10-11 15:58:17] [INFO] <xlwt.Workbook.Workbook object at 0x0000000003C47128>
+[2017-10-11 15:58:39] [INFO] [(23, '是否能顺利跳转到无线wifi设置界面 ', 'Pass', '2017-10-11 15:58:22', '2017-10-11 15:58:39', '0:00:17', '')]
+[2017-10-11 15:58:42] [INFO] <xlrd.book.Book object at 0x0000000003B4CEB8>
+[2017-10-11 15:58:42] [INFO] <xlwt.Workbook.Workbook object at 0x0000000003C15710>
+[2017-10-11 15:59:03] [INFO] wifiname:frt_test
+[2017-10-11 15:59:03] [INFO] wifiname:iot123321
+[2017-10-11 15:59:03] [INFO] [(24, 'wifi页面默认项检查 ', 'Pass', '2017-10-11 15:58:46', '2017-10-11 15:59:03', '0:00:17', '')]
+[2017-10-11 15:59:06] [INFO] <xlrd.book.Book object at 0x0000000003B4CEF0>
+[2017-10-11 15:59:06] [INFO] <xlwt.Workbook.Workbook object at 0x0000000003D26BE0>
+[2017-10-11 16:03:36] [ERROR] Traceback (most recent call last):
+  File "E:\wifitest\testcase\test_wifi_name_legal.py", line 51, in test_wifi_name_legal
+    self.wifipage.wait_pop_alert_disappear()
+  File "E:\wifitest\webpage\WifiPage.py", line 62, in wait_pop_alert_disappear
+    self.waituntilinvisible(self.alert)
+  File "E:\wifitest\webpage\BasePage.py", line 220, in waituntilinvisible
+    wait.until(EC.invisibility_of_element_located((eval("By."+type),value)))
+  File "C:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 71, in until
+    value = method(self._driver)
+  File "C:\python\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 196, in __call__
+    return _element_if_visible(_find_element(driver, self.locator), False)
+  File "C:\python\lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 98, in _element_if_visible
+    return element if element.is_displayed() == visibility else False
+  File "C:\python\lib\site-packages\selenium\webdriver\remote\webelement.py", line 325, in is_displayed
+    return self._execute(Command.IS_ELEMENT_DISPLAYED)['value']
+  File "C:\python\lib\site-packages\selenium\webdriver\remote\webelement.py", line 461, in _execute
+    return self._parent.execute(command, params)
+  File "C:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "C:\python\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Error determining if element is displayed
+
+
+[2017-10-11 16:03:36] [INFO] [(25, 'wifi名称各种组合是否支持 ', 'error', '2017-10-11 15:59:11', '2017-10-11 16:03:36', '0:04:25', 'Message: Error determining if element is displayed\n')]
+[2017-10-11 16:03:39] [INFO] <xlrd.book.Book object at 0x0000000003C01B38>
+[2017-10-11 16:03:39] [INFO] <xlwt.Workbook.Workbook object at 0x0000000003D61D68>
+[2017-10-11 16:04:02] [INFO] 请输入2.4G无线名称。
+[2017-10-11 16:04:02] [INFO] [(26, '不输入wifi名称时的提示语检查 ', 'Pass', '2017-10-11 16:03:45', '2017-10-11 16:04:02', '0:00:17', '')]
+[2017-10-11 16:04:05] [INFO] <xlrd.book.Book object at 0x0000000003B4CF60>
+[2017-10-11 16:04:05] [INFO] <xlwt.Workbook.Workbook object at 0x0000000003C145F8>
+[2017-10-11 16:04:53] [INFO] [(27, '不输入wifi密码时是否可以保存成功 ', 'Pass', '2017-10-11 16:04:10', '2017-10-11 16:04:53', '0:00:43', '')]
+[2017-10-11 16:04:53] [INFO] 测试完成后恢复wifi密码
+[2017-10-11 16:05:19] [INFO] <xlrd.book.Book object at 0x0000000003B4BEF0>
+[2017-10-11 16:05:19] [INFO] <xlwt.Workbook.Workbook object at 0x0000000003CCAA90>
+[2017-10-11 16:05:58] [INFO] [(28, '输入错误格式的wifi 密码，提示语检查 ', 'Pass', '2017-10-11 16:05:24', '2017-10-11 16:05:58', '0:00:34', '')]
+[2017-10-11 16:05:58] [INFO] 测试完成恢复wifi密码
+[2017-10-11 16:06:25] [INFO] <xlrd.book.Book object at 0x0000000003B4BF28>
+[2017-10-11 16:06:25] [INFO] <xlwt.Workbook.Workbook object at 0x0000000003D50198>
+[2017-10-11 16:08:42] [ERROR] Traceback (most recent call last):
+  File "E:\wifitest\testcase\test_legal_wifi_password.py", line 42, in test_legal_wifi_password
+    self.wifipage.clear_wifi_password()
+  File "E:\wifitest\webpage\WifiPage.py", line 57, in clear_wifi_password
+    self.clear(wifipassword)
+  File "E:\wifitest\webpage\BasePage.py", line 178, in clear
+    element.clear()
+  File "C:\python\lib\site-packages\selenium\webdriver\remote\webelement.py", line 87, in clear
+    self._execute(Command.CLEAR_ELEMENT)
+  File "C:\python\lib\site-packages\selenium\webdriver\remote\webelement.py", line 461, in _execute
+    return self._parent.execute(command, params)
+  File "C:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "C:\python\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidElementStateException: Message: Element must not be hidden, disabled or read-only
+
+
+[2017-10-11 16:08:42] [INFO] [(29, '是否支持各种格式的wifi密码 ', 'error', '2017-10-11 16:06:30', '2017-10-11 16:08:42', '0:02:12', 'Message: Element must not be hidden, disabled or read-only\n')]
+[2017-10-11 16:08:42] [INFO] 测试完成恢复wifi密码
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] no found
+[2017-10-11 16:09:16] [INFO] [(30, '关闭wifi 后，查看电脑的无线列表 ', 'Pass', '2017-10-11 16:08:50', '2017-10-11 16:09:16', '0:00:26', '')]
+[2017-10-11 16:09:16] [INFO] 测试完成后恢复到wifi打开的状态
+[2017-10-11 16:09:25] [INFO] <xlrd.book.Book object at 0x0000000003B4BFD0>
+[2017-10-11 16:09:25] [INFO] <xlwt.Workbook.Workbook object at 0x0000000003C9BDD8>
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] no found
+[2017-10-11 16:10:23] [INFO] [(31, '关闭SSID,查看电脑列表能否搜索到wifi名称 ', 'Pass', '2017-10-11 16:09:29', '2017-10-11 16:10:23', '0:00:54', '')]
+[2017-10-11 16:10:23] [INFO] 测试完成后关闭ssid隐藏
+[2017-10-11 16:10:47] [INFO] <xlrd.book.Book object at 0x0000000003B4AF60>
+[2017-10-11 16:10:47] [INFO] <xlwt.Workbook.Workbook object at 0x0000000003C99C50>
+[2017-10-11 16:11:16] [INFO] [(32, '不输入原密码时的提示信息检查 ', 'Pass', '2017-10-11 16:10:53', '2017-10-11 16:11:16', '0:00:23', '')]
+[2017-10-11 16:11:19] [INFO] <xlrd.book.Book object at 0x0000000003B82D30>
+[2017-10-11 16:11:19] [INFO] <xlwt.Workbook.Workbook object at 0x0000000003C231D0>
+[2017-10-11 16:11:50] [INFO] [(33, '不输入新密码时的提示信息检查 ', 'Pass', '2017-10-11 16:11:24', '2017-10-11 16:11:50', '0:00:26', '')]
+[2017-10-11 16:11:53] [INFO] <xlrd.book.Book object at 0x0000000003B84D30>
+[2017-10-11 16:11:53] [INFO] <xlwt.Workbook.Workbook object at 0x0000000003CB22B0>
+[2017-10-11 16:12:23] [INFO] [(34, '确认密码不输入时提示信息检查 ', 'Pass', '2017-10-11 16:11:57', '2017-10-11 16:12:23', '0:00:26', '')]
+[2017-10-11 16:12:26] [INFO] <xlrd.book.Book object at 0x0000000003B82D30>
+[2017-10-11 16:12:26] [INFO] <xlwt.Workbook.Workbook object at 0x0000000003C08BA8>
+[2017-10-11 16:12:56] [INFO] [(35, '确认密码与新密码不一致时的提示信息检查 ', 'Pass', '2017-10-11 16:12:30', '2017-10-11 16:12:56', '0:00:26', '')]
+[2017-10-11 16:12:59] [INFO] <xlrd.book.Book object at 0x0000000003C882E8>
+[2017-10-11 16:12:59] [INFO] <xlwt.Workbook.Workbook object at 0x0000000003CA6320>
+[2017-10-11 16:13:30] [INFO] [(36, '原密码错误时提示信息检查 ', 'Pass', '2017-10-11 16:13:04', '2017-10-11 16:13:30', '0:00:26', '')]
+[2017-10-11 16:13:33] [INFO] <xlrd.book.Book object at 0x0000000003BA92E8>
+[2017-10-11 16:13:33] [INFO] <xlwt.Workbook.Workbook object at 0x0000000003C274E0>
+[2017-10-11 16:14:04] [INFO] [(37, '新密码格式错误时提示信息检查 ', 'Pass', '2017-10-11 16:13:38', '2017-10-11 16:14:04', '0:00:26', '')]
+[2017-10-11 16:14:07] [INFO] <xlrd.book.Book object at 0x0000000003B82D68>
+[2017-10-11 16:14:07] [INFO] <xlwt.Workbook.Workbook object at 0x0000000003BA96A0>
+[2017-10-11 16:15:09] [INFO] [(38, '修改登录密码查看是否可以登录成功', 'Pass', '2017-10-11 16:14:12', '2017-10-11 16:15:09', '0:00:57', '')]
+[2017-10-11 16:15:09] [INFO] 测试完成恢复登录密码
+[2017-10-11 16:15:25] [INFO] <xlrd.book.Book object at 0x0000000003BA8668>
+[2017-10-11 16:15:25] [INFO] <xlwt.Workbook.Workbook object at 0x0000000003CA3B70>
+[2017-10-11 16:16:00] [INFO] [(39, '检查时区能否正确改变 ', 'Pass', '2017-10-11 16:15:30', '2017-10-11 16:16:00', '0:00:30', '')]
+[2017-10-11 16:16:00] [INFO] 测试完成恢复时区
+[2017-10-11 16:16:06] [INFO] <xlrd.book.Book object at 0x0000000003B82D30>
+[2017-10-11 16:16:06] [INFO] <xlwt.Workbook.Workbook object at 0x0000000003C15898>
+[2017-10-11 16:16:25] [ERROR] Traceback (most recent call last):
+  File "E:\wifitest\webpage\BasePage.py", line 48, in findElement
+    elem = self.driver.find_element_by_id(value)
+  File "C:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 269, in find_element_by_id
+    return self.find_element(by=By.ID, value=id_)
+  File "C:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 752, in find_element
+    'value': value})['value']
+  File "C:\python\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "C:\python\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to find element with id == ic_systemSetup
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\wifitest\testcase\test_firmware_upgrade.py", line 35, in test_Reboot
+    self.setuppage.goto_setup()
+  File "E:\wifitest\webpage\SetupPage.py", line 50, in goto_setup
+    systemmanage=self.findElement(self.systemmanage)
+  File "E:\wifitest\webpage\BasePage.py", line 67, in findElement
+    raise ValueError("No such element found" + str(element))
+ValueError: No such element found('id', 'ic_systemSetup')
+
+[2017-10-11 16:16:25] [INFO] [(40, '上次错误的分位时，错误提示 ', 'error', '2017-10-11 16:16:11', '2017-10-11 16:16:25', '0:00:14', "No such element found('id', 'ic_systemSetup')")]
+[2017-10-11 16:16:28] [INFO] <xlrd.book.Book object at 0x0000000003CA7358>
+[2017-10-11 16:16:28] [INFO] <xlwt.Workbook.Workbook object at 0x0000000003D75F28>
+[2017-10-11 16:18:24] [INFO] [(41, '重启功能检查 ', 'Pass', '2017-10-11 16:16:33', '2017-10-11 16:18:24', '0:01:51', '')]
+[2017-10-11 16:18:27] [INFO] <xlrd.book.Book object at 0x0000000003BBE4A8>
+[2017-10-11 16:18:27] [INFO] <xlwt.Workbook.Workbook object at 0x0000000004021780>
+[2017-10-11 16:18:59] [INFO] [(42, '取消重启检查 ', 'Pass', '2017-10-11 16:18:33', '2017-10-11 16:18:59', '0:00:26', '')]
+[2017-10-11 16:19:02] [INFO] <xlrd.book.Book object at 0x0000000003B83D30>
+[2017-10-11 16:19:02] [INFO] <xlwt.Workbook.Workbook object at 0x0000000003CA7438>
+[2017-10-11 16:19:20] [INFO] [(43, '退出系统 ', 'Pass', '2017-10-11 16:19:06', '2017-10-11 16:19:20', '0:00:14', '')]
+[2017-10-11 16:19:23] [INFO] <xlrd.book.Book object at 0x0000000003B835C0>
+[2017-10-11 16:19:23] [INFO] <xlwt.Workbook.Workbook object at 0x0000000003C13588>
+[2017-10-11 16:19:23] [INFO] 发送邮件
